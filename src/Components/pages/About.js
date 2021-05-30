@@ -75,9 +75,12 @@ function About() {
             </p>
             <br/>You can contact me through :-
             <br></br>
-            Email: 
+            Email: shanukrsinghhis@gmail.com
+            <br></br>
+            LinkedIn:<a href="https://www.linkedin.com/in/shanu-kumar-singh-8ba590106" >https://www.linkedin.com/in/shanu-kumar-singh-8ba590106</a>
             <br></br>
             Github: <a href="https://github.com/shanukrsingh">https://github.com/shanukrsingh</a>
+            <br></br>
         </Media.Body>
         </Media>
         </Container>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import {Jumbotron,Container, Row, Col,CardGroup, Card,Button} from 'react-bootstrap';
+import {Jumbotron,Container, Row,CardGroup, Card,Button} from 'react-bootstrap';
 import Video from './Video';
 
 function HomeBody() {
@@ -11,7 +11,8 @@ function HomeBody() {
           {/* Title */}
           <div className="row top-off">
             <div className="col-lg-6">
-              <h1 className="big-heading">Worried about your mental health </h1>
+              <h1 className="big-heading">Worried about your mental health?</h1>
+              <div style={{textAlign: 'center', fontSize:'20px', padding: "20px 10px 20px 10px"}}>We here at mentopia are more than happy to guide you.</div>
             </div>
             <div className="col-lg-6">
               <img className="title-image w3-animate-top" src="images/img6.jpg" alt="" />
@@ -56,10 +57,10 @@ function HomeBody() {
           </Container>
         </Jumbotron>
         <Container>
-          <Row style={{marginTop: '80px'}}>
-            <Col sm={6} style={{padding: '0 10% 0 0'}}><Video url="https://youtu.be/IzFObkVRSV0" /></Col>
-            <Col sm={3} className="ml-auto" style={{padding: '0 0 0 0'}}><Video url="https://youtu.be/RrWBhVlD1H8" /></Col>
+          <Row style={{marginBottom: '20px'}}>
+            <Video url="https://youtu.be/IzFObkVRSV0" />
           </Row>
+          <Row><Video url="https://youtu.be/RrWBhVlD1H8" /></Row>
         </Container>
         
         <Jumbotron style={{marginTop: '70px'}}>
